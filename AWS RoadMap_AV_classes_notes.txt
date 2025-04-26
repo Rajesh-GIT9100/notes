@@ -1,0 +1,174 @@
+------------------------------- ----DevOps MM---------------------------------
+
+1. Linux, bash and git commands
+2. ⁠networking concepts 
+3. ⁠stick with one cloud Aws, azure or GCP 
+4. ⁠devops tools start with docker cicd 
+5. ⁠terraform infra 
+6. ⁠deployments using kubernets clusters 
+7. ⁠tools ansible
+
+
+
+--------------------------------Prashanth Nellore.-------------------------------
+
+-------part 1-------
+1.Linux 
+
+2. shellscripting /  python
+
+3. git hub 
+
+4. maven or gradle - build toolsfor java
+
+5. SonarQube       - code quality report tool
+
+6. nexus or jfrog  - Artifacts tool
+
+7. Jenkins         -ci/cd build (important)  
+
+
+-----part2----
+8. Docker          -  image ,container ,deploy ,docker volumes
+
+9. Kubernetes  
+
+10. Ansible       -deployments ,playbooks,fundamentals
+
+
+part3-----AWS AZURE GCP
+
+Part4-----SQLknown things
+
+
+------------------------------------youtube link-----------------------------------
+GIT iam-veeramalla
+
+https://youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze&si=MY1BJflCNIHcd5IJ
+
+--udemy--
+https://www.udemy.com/course/ultimate-devops-project-with-resume-preparation/?referralCode=9F588E43854814744430&couponCode=ST1MT31025G3
+
+Day 0 - Summary
+Day 1 - public cloud
+Day 2 - AIM ,users,groups,permissions  -Practical root ,AIM user
+
+Day 3 - EC2 types what ,whyt  types.1.general 2.compute optimized 3.memory optimized 4.storage optimized 5.accelerated
+        Region and availability.
+
+        created instance ,login through terminal or putty ,intall jdk and jenkins
+Day 4 - VPC -virtual private cloud
+        internet gateway ,public subnet,load balancer->route table  to private subnet or application.
+        NAT gateway - masking of public IP addresses.
+        VPC flowlogs -to count the traffic
+
+       link - https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
+
+Day 5 - AWS Security using Security Groups(SG) and NACL
+         SG -types -inbound traffic n outbound traffic
+         Network Access Control List NACL - an extra layer of SG 
+         SG - allow access permissions
+         NACL -both allow and deny permissions
+   >Practical understandings
+    ---------------------------------------------
+    internet gateway -->NACL-->Sec grps-->EC2 app
+    ----------------------------------------------
+                      VPC
+     ---------------------------------------------
+
+Day 6 - Route 53  DNS - Domain name system
+        Domain registration,hosted zones,health checks.
+
+       dns names - amazon.com,flipkart.com,google.com
+
+Day 7 - PROJECT
+      auto scaling,load balancer, target group,bastion host or jump server
+
+   --> created auto scaling groups -prerequisite (launch template for autoscale -easy)
+
+       verified  -instances are  created according desired number of created template(but there is no public ip for instances)
+       
+       { bastion host--> mediator that connects public subnets to private servers.
+         Bastion is nothing but launching an ec2 with the public IP and created within the VPC network surrond. } ,deploying small app in to desired ec2
+
+       creating load balancer ....and through the generated dns accessing the ec2 server .
+
+Day 8 - Interview Questions
+        GIT reference  
+
+Day 9 - s3 simple storage service , bucket permissions-policies-versioning-static website host
+
+Day 10 -AWS CLI- cmd line interface
+        install (oracle virtual box) ,GIT BASh,aws msi
+       configured with aws configure with access key ,secret access key,zone ,json format.
+      -- read aws documentation
+
+Day 11 - aws CFT -cloud formation templates .
+        - Iac infrastructure as Code
+        - components,features ,trips and tricks.
+
+        - Terraform -used to handle multi environment of cloud like hybrid ,companies who use both azure and aws
+        -CLI used for short and quick works on aws
+        -CFT used for huge tags ,three Ec2 resources ,VPC+RT+LB+Ec2
+        -detect drift - detects the changes did by users
+    --refer aws Documentation for CFT 
+    --cft,stacks ,create stacks.
+   my understanding of CFT - using a template(YAML or json) creating the services that we need .
+
+Day 12 - AWS CodeCommmit 
+        check class for overview code pipeline,code build,code deploy 
+
+        GitHub for hosting the code
+        Jenkins for pipeline
+        Docker for Build ,Maven for java application or SonarQube
+        ansible for deploying 
+
+Day 13 -AWS Code Pipeline | Jenkins vs AWS Code Pipeline | Open Source vs AWS Managed
+
+
+
+\\{ Day 19 devops-zero-to-hero course , JDK |JENKINS | DOCKER installation 
+       Refer ReadMe file 
+       GIT interview questions and other topics such as small projects and notes  }//
+
+https://www.youtube.com/watch?v=ogrx8G8pClQ
+
+
+
+Day 14 - AWS END TO END CI | REALTIME PROJECT | DEMO WITH NOTES
+
+        adding GIT path ,environment setup, build specification in aws
+
+
+Day 15 - 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
