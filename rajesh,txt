@@ -1,3 +1,28 @@
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+
+//configuring......
+git config --global user.name "rajesh-GIT9100"
+git config --global user.email "neelamrajeshreddy21@gmail.com"
+git config --global user.name
+git config --global user.email
+
+//cloning the branh
+git clone https://github.com/Rajesh-GIT9100/< repo-name 'notes'>.git
+
+//checking the status, anything on working directory
+git status
+ll
+
+//Adding file to working repository 
+git add "filename"
+//committing file to working directory
+git commit -m "description of changes"
+
+//pushing file to mail repository
+git push origin main
+
+//pull request
+git pull origin main
+
+//check git log
+git log
+
