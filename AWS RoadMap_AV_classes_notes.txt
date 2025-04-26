@@ -8,8 +8,6 @@
 6. ⁠deployments using kubernets clusters 
 7. ⁠tools ansible
 
-
-
 --------------------------------Prashanth Nellore.-------------------------------
 
 -------part 1-------
