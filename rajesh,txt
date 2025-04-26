@@ -1,3 +1,8 @@
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+git config --global user.name "rajesh-GIT9100"
+git config --global user.email "neelamrajeshreddy21@gmail.com"
+
+git add "filename"
+git commit -m "description of changes"
+
+git push origin main
+
