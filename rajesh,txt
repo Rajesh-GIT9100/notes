@@ -1,6 +1,11 @@
 git config --global user.name "rajesh-GIT9100"
 git config --global user.email "neelamrajeshreddy21@gmail.com"
 
+git clone https://github.com/Rajesh-GIT9100/< repo-name 'notes'>.git
+
+git status
+
+
 git add "filename"
 git commit -m "description of changes"
 
