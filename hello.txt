@@ -3,4 +3,4 @@ say hi
 
 my first changes in git-- first line
 
-
+my second chnages in hello text file
