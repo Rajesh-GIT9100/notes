@@ -14,10 +14,14 @@ ll
 
 //Adding file to working repository 
 git add "filename"
+
+//To add all changed things to working directory 
+git add .
+
 //committing file to working directory
 git commit -m "description of changes"
 
-//pushing file to mail repository
+//pushing file to main repository
 git push origin main
 
 //pull request
