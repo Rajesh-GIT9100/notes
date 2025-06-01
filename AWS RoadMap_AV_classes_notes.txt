@@ -231,6 +231,8 @@ How to reduce your AWS Billing
 Shell scripting project for Devops
 ---------------------------------------
 
+## Day 27 - INTERVIEW QUESTIONS 500 | 30 AWS services questions 
+
 
 
 
