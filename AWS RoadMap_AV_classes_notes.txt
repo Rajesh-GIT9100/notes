@@ -234,6 +234,10 @@ Shell scripting project for Devops
 ## Day 27 - INTERVIEW QUESTIONS 500 | 30 AWS services questions 
             named interview questions
 
+## sample  questions on all tools and toics
+devops-interview-preparation-guide/devops_without_cloud/questions.txt
+
+
 
 
 
