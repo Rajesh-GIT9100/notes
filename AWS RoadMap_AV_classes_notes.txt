@@ -53,7 +53,7 @@ Day 0 - Summary
 Day 1 - public cloud
 Day 2 - AIM ,users,groups,permissions  -Practical root ,AIM user
 
-Day 3 - EC2 types what ,whyt  types.1.general 2.compute optimized 3.memory optimized 4.storage optimized 5.accelerated
+Day 3 - EC2 types what ,why ?  types.1.general 2.compute optimized 3.memory optimized 4.storage optimized 5.accelerated
         Region and availability.
 
         created instance ,login through terminal or putty ,intall jdk and jenkins
@@ -137,10 +137,119 @@ https://www.youtube.com/watch?v=ogrx8G8pClQ
 
 Day 14 - AWS END TO END CI | REALTIME PROJECT | DEMO WITH NOTES
 
-        adding GIT path ,environment setup, build specification in aws
+        Build--adding GIT path ,environment setup, build specification in aws
+       
+        AWS-code build using build specs, AWS-CodePipeline (using GIT and AWS Build)
+        The aws code pipeline triggers the source(GIT) automatically whenever there is change in source code.
 
 
-Day 15 - 
+Day 15 - CICD -code deploy-createapllication-ec2 lamda ecs
+         aws codedeploy user guide doc and run commands
+
+Day 16 -AWS Cloud Watch -monitoring-alarm-reporting-logging
+        Metrics 
+        Alarms 
+        Custom metrics
+                       Demo 1 -create alarm - alert/alarm on CPU utilization 
+
+Day 17- AWS Lambda
+        serverless - 1.cost estimation 2.security/complaince
+        diff bw ec2 and lambda
+        eg : pics upload to cloud ,ETL-export transform load 
+
+Day 18- AWS Cost Optimizaton
+        ec2-volumes-snapshot
+        1.When we create ec2 automatically volumes are formed for that ec2 ,and snapshots are created by users.
+        2.When we delete ec2 automatically volumes are deleted , but the snapshots are not deleted automatically ,which will increase the cost
+          (in order to eliminate this scenario ,we use lambda functions to delete the snapshots if its has not used for long time 
+            or 
+           we can set alarms using cloudwatch.)
+
+Day 19 -Cloud Front -CDN Content delivery network  ,REFER GIT LINK
+        provides solution for CDN
+        eg : Instagram,central storage system, routers, Latency(loading n reach time)
+             latency -time taken to reach/load/communicate (from data request to server )
+             CDN copies image/data in local edges by taking from the central system.
+
+        youtube ref :Tech Tutorials with Piyush
+
+        demo : create distributions 
+
+       cloud front forms the copy of s3 bucket across various locations in the world called local edges
+       so with the domain name with different location people can easily access the application with less latency.  
+
+Day 20 -AWS ECR , REFER GIT LINK
+    elastic container register
+    
+Day 21 - AWS ECS - Elastic Container Service | create Cluster | cost eefecetive(low)
+Day 22 - project on EKS | Refer Git | To Do Things
+Day 23 - secret management on AWS | for storing sensitive information
+         --Systems Manager (on AWS) - parameter store
+         --Secrets Manager (on AWS) - Rotate certificate for mentioned time interval (90days),i.e.,changes the key of password by SM itself after the interval. 
+         --Hashicorp vault (outsource solution) - centralised solution can be commonly used for all clouds(aws,azure.etc.)
+
+Day 24 - RTE/project using TERRAFORM -To DO Things
+       internet gateway|loadbalancer|subnets|vpc|ec2|S3Bucket
+
+Day 25 - AWS config topic | organization follows set of rules for services |using configs(basic,lambda) these are maintained complaint .
+
+Day 26 - AWS Lad balancers |ALB NLB GWLB | application LB, networking LB, GateWay LB |
+
+   ALB -High cost ,low latency ,works on layer 7 application layer | http request
+   NLB -Low cost ,high latency , works on layer 4 network layer | TCP n UDP request
+   GWLB - Virtual application ,VPN ,fireWall
+         Round robin LB Technique
+         NGINX LB
+         F5 LB
+         ENROY LB
+         Trafic LB
+         Ambassador LB
+
+       - 7 layer of OS
+
+Day 27 - INTERVIEW QUESTIONS 500 | 30 AWS services questions 
+
+Day 28 -Migrating application to aws and strategies
+     7R's - Rehost Replatform Repurchase Refactor/Rearchitecture Relocate Retire Retain
+     Preparation
+     Palnning 
+     Migrate
+     Monitor 
+     Optimize
+
+Day 29 - How to crack Devops Job
+
+Day 30 -3 tier application on aws | To do things
+
+----------------------------------------
+Deploy an commerce 3 tier app on AWS EKS
+----------------------------------------
+RTE -EKS Cluster with VPC using Terraform 
+----------------------------------------
+How to reduce your AWS Billing
+----------------------------------------
+Shell scripting project for Devops
+---------------------------------------
+
+## Day 27 - INTERVIEW QUESTIONS 500 | 30 AWS services questions 
+            named interview questions
+
+## sample  questions on all tools and toics
+devops-interview-preparation-guide/devops_without_cloud/questions.txt
+
+
+
+
+
+
+
+
+
+         
+
+       
+     
+
         
 
 
